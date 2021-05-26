@@ -1,3 +1,12 @@
+"""
+This program will leverage Cisco DNA Center's configuration archive API
+(Avaialble in version 2.1.x and above) in order to save a local, password
+protected ZIP file with the configuration of the network devices.
+
+If the provided DNAC password is sufficient for the password rules - it will
+be used. Otherwise, the user will be prompted to enter a new password.
+"""
+
 __author__ = "Oren Brigg"
 __author_email__ = "obrigg@cisco.com"
 __copyright__ = "Copyright (c) 2021 Cisco Systems, Inc."
